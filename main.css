@@ -1,0 +1,205 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+}
+
+p {
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+}
+
+li {
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+}
+
+/* HEADER                                       HEADER                                  HEADER                              HEADER              HEADER */
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    margin: 0; 
+    margin-top: 33px;
+}
+
+.title__vector {
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin-top: 8px; 
+}
+
+/*INFO                                          INFO                                    INFO                                INFO                INFO */
+
+.info__text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 136px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+/* LIST                                         LIST                                    LIST                                LIST*/
+
+.list__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    gap: 35px; 
+    margin-top: 78px;
+}
+
+.list__item {
+    font-size: 24px; 
+    text-align: center;
+    cursor: context-menu;
+}
+
+.list__item:hover {
+    color: brown;
+}
+
+/* DISHES                                       DISHES                                  DISHES                              DISHES */
+
+.dishes {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.dishes__title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.dishes__title-vector {
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin: 10px auto 30px; 
+}
+
+.dishes__container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dishes__row {
+    display: flex;
+    gap: 60px; 
+}
+
+.dishes__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dishes__img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; 
+    margin-bottom: 30px; 
+    transition: transform 0.3s ease; 
+}
+
+.dishes__img:hover {
+    transform: scale(1.08); 
+}
+
+.dishes__vector {
+    width: 200px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 30px; 
+}
+
+/* CHEFS                                        CHEFS                                       CHEFS                           CHEFS */
+
+.chefs {
+    font-size: 24px; 
+    text-align: center;
+    margin: 0 211px; 
+    margin-top: 182px;
+    margin-bottom: 100px;
+}
+
+/* MENU                                         MENU                                          MENU                           MENU  */
+
+.menu__title-lead {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu__item {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;
+    max-width: 1000px; 
+}
+
+.menu__img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.menu__content {
+    display: flex;
+    flex-direction: column; 
+}
+
+.menu__title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.menu__price {
+    font-size: 36px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+}
+
+/* Описание */
+.menu__text {
+    font-size: 24px;
+    margin-top: 10px;
+}
