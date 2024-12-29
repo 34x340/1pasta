@@ -40,6 +40,9 @@ li {
     margin: 0; 
     margin-top: 33px;
 }
+.title:hover {
+    color: brown;
+}
 
 .title__vector {
     width: 100px;
@@ -47,6 +50,48 @@ li {
     background-color: white;
     margin-top: 8px; 
 }
+
+.title__input {
+    position: absolute; 
+    top: 40px; 
+    right: 30px; 
+    background-color: black; 
+    border: 1px solid white; 
+    color: white; 
+    text-align: center;
+    padding: 8px 16px; 
+    font-size: 16px; 
+    border-radius: 25px; 
+    outline: none; 
+}
+
+.title__input::placeholder {
+    color: white; 
+}
+
+.suggestions {
+    position: absolute;
+    top: 80px; 
+    right: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    border-radius: 5px; 
+    width: 200px;
+    z-index: 10;
+}
+
+.suggestions li {
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #333; /* Цвет при наведении */
+}
+
 
 /*INFO                                          INFO                                    INFO                                INFO                INFO */
 
@@ -93,6 +138,7 @@ li {
 .dishes__title {
     font-size: 36px;
     margin: 0;
+    margin-bottom: 50px;
 }
 
 .dishes__title-vector {
